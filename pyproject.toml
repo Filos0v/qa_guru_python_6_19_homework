@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "qa-guru_python_lesson_6_19"
+version = "1.0.0"
+description = "homework"
+authors = ["Aleksandr <sheva666@mail.su>"]
+readme = "README.md"
+packages = [{include = "lesson_6_19"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selene = "2.0.0rc4"
+pytest = "7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "2.17.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
